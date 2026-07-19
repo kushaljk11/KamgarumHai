@@ -7,10 +7,10 @@ export default function Navbar() {
                     <h1 className="text-2xl font-semibold">TaskMaster</h1>
                 </div>
                 <div>
-                    <ul className="flex space-x-4">
-                        <li><a href="/" className="text-black text-lg font-semibold hover:text-green-400">Home</a></li>
-                        <li><a href="/about" className="text-black text-lg font-semibold hover:text-green-400">About</a></li>
-                        <li><a href="/contact" className="text-black text-lg font-semibold hover:text-green-400">Contact</a></li>
+                    <ul className="flex space-x-8">
+                        <li><a href="/" className="text-black text-sm font-semibold hover:text-green-400">Home</a></li>
+                        <li><a href="/about" className="text-black text-sm font-semibold hover:text-green-400">About</a></li>
+                        <li><a href="/contact" className="text-black text-sm font-semibold hover:text-green-400">Contact</a></li>
                     </ul>
                 </div>
                 <div className="flex space-x-2">
